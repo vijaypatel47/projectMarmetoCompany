@@ -1,0 +1,81 @@
+@import url('https://fonts.googleapis.com/css2?family=Bree+Serif&family=Caveat:wght@400;700&family=Lobster&family=Monoton&family=Open+Sans:ital,wght@0,400;0,700;1,400;1,700&family=Playfair+Display+SC:ital,wght@0,400;0,700;1,700&family=Playfair+Display:ital,wght@0,400;0,700;1,700&family=Roboto:ital,wght@0,400;0,700;1,400;1,700&family=Source+Sans+Pro:ital,wght@0,400;0,700;1,700&family=Work+Sans:ital,wght@0,400;0,700;1,700&display=swap');
+
+.body-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 20px;
+}
+
+.heading {
+    font-size: 25px;
+    font-weight: bold;
+}
+
+.head-container {
+    display: flex;
+    align-items: center;
+    margin-bottom: 30px;
+}
+
+.icon {
+    font-size: 20px;
+    border: none;
+    background-color: transparent;
+}
+
+.search-input {
+    width: 100%;
+    padding-left: 10px;
+    margin: 5px;
+    border-radius: 5px;
+    height: 23px;
+}
+
+.button {
+    margin: 5px;
+    border: none;
+}
+
+.image-size {
+    width: 200px;
+    background-color: transparent;
+    height: 150px;
+    border: none;
+}
+
+.list-view {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin: 20px;
+}
+
+.para {
+    font-size: 15px;
+}
+
+.data-list {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding-left: 15px;
+    width: 200px;
+}
+
+.grid-view {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(150px, 1fr));
+}
+
+.product-item {
+    border: 1px solid blue;
+    padding: 10px;
+    margin: 5px;
+}
+
+.highlight {
+    color: yellow;
+    font-weight: bold;
+}
